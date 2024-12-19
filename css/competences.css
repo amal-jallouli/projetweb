@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    color: black;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: palevioletred;
+    color: palevioletred;
+    border-collapse: collapse;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar td {
+    padding: 10px 20px;
+}
+
+.nom {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    width: 20%;
+}
+
+.nom a {
+    text-decoration: none;
+    color: white; 
+}
+
+.lien {
+    text-align: center;
+    width: 60%;
+}
+
+.lien a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lien a:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 15px pink;
+    color: pink;
+}
+
+#menu_actuel {
+    color: palevioletred;
+}
+
+.iconnes {
+    text-align: right;
+    width: 20%;
+}
+
+.lightLogo {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.changerMode {
+    border: none;
+    background-color: transparent;
+}
+
+/* Main Content */
+main {
+    margin-top: 120px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Frameworks Title */
+.frameworks-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Content Item */
+.education-item {
+    display: flex;
+    align-items: center;
+    background-color: palevioletred;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.education-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Circular Image Styling */
+.circular-image {
+    border: 4px solid palevioletred;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+/* Text Content */
+.text-content h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: pink;
+}
+
+.text-content p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: palevioletred;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
